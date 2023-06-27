@@ -1,0 +1,41 @@
+.add__container{
+    display: flex;
+    flex-flow: column;
+    width: 40%;
+    z-index: 10;
+
+}
+.add__client{
+    transform: translateX(-100%);
+    opacity: 0;
+}
+.add__bill{
+    transform: translateX(100%);
+    opacity: 0;
+}
+.add__article{
+    scale: 0;
+    opacity: 0;
+}
+.container{
+    flex-flow: column;
+    gap: 1rem;
+}
+.section{
+    display: flex;
+    padding: 0 8%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+
+
+
+.add__container img{
+    width: 100%;
+    height: 300px;
+}
+img{
+    transition: scale .9s ease-in-out;
+}
